@@ -4,8 +4,7 @@
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
-}
+  }
 
 h1, h2, h3, h4 {
   font-weight: 700;
@@ -38,7 +37,7 @@ td {
 }
 
 .tagline {
-  font-size: 22px;
+  font-size: 21px;
 }
 
 /* Buttons */
@@ -79,11 +78,11 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
-}
+  height: 500px;
+  padding-top: 150px;
+  }
 
-.sound-bites, .why-order {
+.sound-bites, .sound-bites-content, .why-order, .why-order-content {
   background-color: rgb(238, 238, 238);
 }
 
@@ -91,8 +90,8 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .footer {
@@ -122,10 +121,17 @@ td {
   margin-bottom: 10px;
 }
 
+.ul-footer{
+  padding-left: 0;
+  list-style-position: inside;
+}
 .li-footer {
   color: white;
   margin-bottom: 10px;
+  list-style-type: none;
+  text-align: left;
 }
+
 
 /* My standard vertical spacing classes */
 
