@@ -4,7 +4,6 @@
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
 }
 
 h1, h2, h3, h4 {
@@ -16,17 +15,6 @@ h1, h2, h3, h4 {
 .main-content {
   width: 100%;
 }
-
-td {
-  vertical-align: top;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-td {
-  border: thin red solid;
-}
-
 /* Utility */
 
 .round-image {
@@ -60,12 +48,10 @@ td {
 
 .navbar {
   background-color: rgb(246,52,64);
-  vertical-align: middle;
 }
 
 .navbar a {
   color: white !important;
-  text-decoration: none;
 }
 
 .navbar-brand {
@@ -79,8 +65,8 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .sound-bites, .why-order {
@@ -91,12 +77,14 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
-.footer {
+.asfooter {
   background-color: rgb(50, 50, 170);
+  color: white;
+
 }
 
 /* Miscellaneous */
