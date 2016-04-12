@@ -32,6 +32,35 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">FOODHUB</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">
+            <i class="fa fa-shopping-bag fa-lg"></i>
+          </a>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+
   <div class="<container-fluid>">
       <div class="row who-delivers">
           <div class="col-md-offset-3 col-md-6">
@@ -57,7 +86,7 @@
             </form>
           </div>
       </div>
-      <div class="row how-to-heading text-center">
+      <div class="row how-to-heading text-center padding-inside-top-sm">
           <div class="col-xs-12">
             <h2>
               How to Foodhub
@@ -68,8 +97,8 @@
             </p>
           </div>
       </div>
-      <div class="row how-to-content text-center">
-          <div class="col-md-4">
+      <div class="row how-to-content text-center padding-inside-bottom-md">
+          <div class="col-md-4 padding-inside-top-sm">
             <img src="assets/images/map.jpg" class="round-image spotlight-image margin-below-bottom-sm">
 
             <h4>
@@ -80,7 +109,7 @@
               Browse menus from your favorite local restaurants.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 padding-inside-top-sm">
             <img src="assets/images/menu.jpg" class="round-image spotlight-image margin-below-bottom-sm">
 
             <h4>
@@ -91,7 +120,7 @@
               Select what you want to eat. Submit your order.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 padding-inside-top-sm">
             <img src="assets/images/delivery.jpg" class="round-image spotlight-image margin-below-bottom-sm">
 
             <h4>
@@ -103,14 +132,14 @@
             </p>
           </div>
       </div>
-      <div class="row sound-bytes-heading text-center">
+      <div class="row sound-bites-heading text-center padding-inside-top-sm">
           <div class="col-xs-12">
             <h2>
               Sound bites
             </h2>
           </div>
       </div>
-      <div class="row sound-bytes-content">
+      <div class="row sound-bites-content padding-inside-bottom-md">
           <div class="col-sm-6 col-md-3">
             <img src="assets/images/user-1.jpg" class="round-image user-image">
 
@@ -171,12 +200,12 @@
             <img src="assets/images/google-play-badge.png" class="store-badge margin-below-bottom-xs">
           </div>
       </div>
-      <div class="row why-order-heading text-center">
+      <div class="row why-order-heading text-center padding-inside-top-sm">
           <div class="col-xs-12">
             <h2>Why order with Foodhub?</h2>
           </div>
       </div>
-      <div class="row why-order-content text-center">
+      <div class="row why-order-content text-center padding-inside-bottom-md">
           <div class="col-md-4">
             <img src="assets/images/gem.jpg" class="round-image spotlight-image margin-below-bottom-sm">
             <h4>Discover</h4>
@@ -199,44 +228,31 @@
             </p>
           </div>
       </div>
-      <div class="row about-us">
-          <div class="col-md-6 text-center">
+      <div class="row about-us padding-inside-top-sm padding-inside-bottom-md">
+          <div class="col-md-6 text-center padding-inside-top-md">
             <h2>About Foodhub</h2>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 padding-inside-top-sm">
               <p>Foodhub helps you find and order food from wherever you are. How it works: you type in an address, we tell you the restaurants that deliver to that locale as well as showing you droves of pickup restaurants near you. Want to be more specific? Search by cuisine, restaurant name or menu item. We'll filter your results accordingly. When you find what you're looking for, you can place your order online or by phone, free of charge. Oh, and we also give you access to reviews, coupons, special deals and a 24/7 customer care team that tracks each order and makes sure you get exactly what you want.</p>
           </div>
       </div>
-      <div class="row footer">
-          <div class="col-md-3">
+      <div class="row footer padding-inside-top-sm padding-inside-bottom-md">
+          <div class="col-md-3 padding-inside-top-sm">
             <h4 class="h4-footer">Sign up for special offers</h4>
 
             <form>
               <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                <label for="email" class="sr-only">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <label for="zipcode" class="sr-only">Zip Code</label>
+                <input type="text" class="form-control" id="zipcode" placeholder="ZIP code">
               </div>
-              <button type="submit" class="btn btn-default"></button>
-            </form>
-
-
-            <form>
-              <div class="form-group">
-                <input type="email" placeholder="Email">
-              </div>
-
-              <div class="form-group">
-                <input type="number" placeholder="ZIP code">
-              </div>
-
-              <button type="submit" class="primary-button">Send me treats</button>
+              <button type="submit" class="btn btn-primary btn-block">Send me treats</button>
             </form>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 padding-inside-top-sm">
             <h4 class="h4-footer">Get to know us</h4>
 
             <ul>
@@ -248,7 +264,7 @@
               <li class="li-footer">News</li>
             </ul>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 padding-inside-top-sm">
             <h4 class="h4-footer">Help</h4>
 
             <ul>
@@ -265,7 +281,7 @@
               <li class="li-footer">YouTube</li>
             </ul>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 padding-inside-top-sm">
             <h4 class="h4-footer">Partner with us</h4>
 
             <ul>
@@ -276,39 +292,5 @@
           </div>
       </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <table class="main-content">
-    <tr>
-      <td colspan="10" class="navbar">
-        <a class="navbar-brand" href="https://www.google.com">
-          FOODHUB
-        </a>
-      </td>
-      <td class="navbar">
-        <a href="https://www.google.com">
-          Sign In
-        </a>
-      </td>
-      <td class="navbar">
-        <a href="https://www.google.com" class="btn btn-link">
-          <i class="fa fa-shopping-bag fa-lg"></i>
-        </a>
-      </td>
-    </tr>
-  </table>
 </body>
 </html>
