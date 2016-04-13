@@ -33,6 +33,30 @@
 
 <body>
 
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">FOODHUB</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#"><i class="fa fa-shopping-bag fa-lg"></i></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
   <div class="container-fluid">
     <div class="row who-delivers">
       <div class="col-md-offset-3 col-md-6">
@@ -42,24 +66,20 @@
 
         <form>
           <div class="form-group">
-            <label>
-              Enter your address below.
-            </label>
+            <label for="exampleInputEmail1">Enter your address below.</label>
 
             <div class="input-group">
-              <i class="fa fa-map-marker"></i>
-
-              <input type="text" placeholder="Street address, city, state">
+              <span class="input-group-addon" id="basic-addon1"><i class="fa fa-map-marker"></i></span>
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Street address, city, state">
             </div>
           </div>
 
-          <button type="submit" class="primary-button">
-            Find Food
-          </button>
+          <button type="submit" class="btn btn-primary btn-block">Find Food</button>
         </form>
+
       </div>
     </div>
-    <div class="row How-to-Heading">
+    <div class="row How-to-Heading text-center padding-inside-top-sm paddin">
       <div class="col-xs-12">
         <h2>
           How to Foodhub
@@ -70,8 +90,8 @@
         </p>
       </div>
     </div>
-    <div class="row How-to-content">
-      <div class="col-md-4">
+    <div class="row How-to-content text-center padding-inside-bottom-md">
+      <div class="col-md-4 padding-inside-top-sm">
         <img src="assets/images/map.jpg" class="round-image spotlight-image margin-below-bottom-sm">
 
         <h4>
@@ -82,7 +102,7 @@
           Browse menus from your favorite local restaurants.
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 padding-inside-top-sm">
         <img src="assets/images/menu.jpg" class="round-image spotlight-image margin-below-bottom-sm">
 
         <h4>
@@ -93,7 +113,7 @@
           Select what you want to eat. Submit your order.
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 padding-inside-top-sm">
         <img src="assets/images/delivery.jpg" class="round-image spotlight-image margin-below-bottom-sm">
 
         <h4>
@@ -106,66 +126,86 @@
 
       </div>
     </div>
-    <div class="row Sound-bits-heading">
+    <div class="row sound-bites-heading text-center padding-inside-top-sm">
       <div class="col-xs-12">
         <h2>
           Sound bites
         </h2>
       </div>
     </div>
-    <div class="row Sound-bits-content">
-      <div class="col-md-3">
-        <img src="assets/images/user-1.jpg" class="round-image user-image">
+    <div class="row sound-bites-content padding-inside-bottom-sm">
+      <div class="col-md-3 padding-inside-top-sm padding-inside-bottom-sm">
+        <div class="media-left">
+          <img src="assets/images/user-1.jpg" class="round-image user-image">
+        </div>
 
-        <p>
-          @Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life easy. Thanks!
-        </p>
+        <div class="media-body">
+          <p>
+            @Foodhub I love you, Foodhub! Just ordered me some grub, and I tell you, you folks make that part of my life easy. Thanks!
+          </p>
 
-        <h4>
-          @xtinacousins
-        </h4>
+          <h4>
+            @xtinacousins
+          </h4>
+        </div>
       </div>
-      <div class="col-md-3">
-        <img src="assets/images/user-2.jpg" class="round-image user-image">
 
-        <p>
-          Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.
-        </p>
+      <div class="col-md-3 padding-inside-top-sm padding-inside-bottom-sm">
+        <div class="media-left">
+          <img src="assets/images/user-2.jpg" class="round-image user-image">
+        </div>
 
-        <h4>
-          @udezekene
-        </h4>
+        <div class="media-body">
+          <p>
+            Made my first @Foodhub order today. So great to be able to order food and not have to talk to anyone.
+          </p>
+
+          <h4>
+            @udezekene
+          </h4>
+        </div>
       </div>
-      <div class="col-md-3">
-        <img src="assets/images/user-3.jpg" class="round-image user-image">
 
-        <p>
-          Shout out to Foodhub for making my life so so easy.
-        </p>
+      <div class="col-md-3 padding-inside-top-sm padding-inside-bottom-sm">
+        <div class="media-left">
+          <img src="assets/images/user-3.jpg" class="round-image user-image">
+        </div>
 
-        <h4>
-          @adellecharles
-        </h4>
+        <div class="media-body">
+          <p>
+            Shout out to Foodhub for making my life so so easy.
+          </p>
+
+          <h4>
+            @adellecharles
+          </h4>
+        </div>
       </div>
-      <div class="col-md-3">
-        <img src="assets/images/user-4.jpg" class="round-image user-image">
 
-        <p>
-          Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy. FOOD!
-        </p>
+      <div class="col-md-3 padding-inside-top-sm padding-inside-bottom-sm">
+        <div class="media-left">
+          <img src="assets/images/user-4.jpg" class="round-image user-image">
+        </div>
 
-        <h4>
-          @vista
-        </h4>
+        <div class="media-body">
+          <p>
+            Seriously, @Foodhub makes it easy for my coworkers and I to order food and get it to our office in a jiffy. FOOD!
+          </p>
+
+          <h4 class="media-heading">
+            @vista
+          </h4>
+        </div>
       </div>
     </div>
-    <div class="row Download-apps">
+
+    <div class="row download-apps text-center">
       <div class="col-md-offset-3 col-md-6">
         <h2>
           Download apps
         </h2>
 
-        <p class="tagline">
+        <p class="lead">
           Millions of users and we want to befriend each one. 900+ cities and more than 35,000 restaurants.
         </p>
 
@@ -174,12 +214,12 @@
         <img src="assets/images/google-play-badge.png" class="store-badge margin-below-bottom-xs">
       </div>
     </div>
-    <div class="row Why-order-heading">
+    <div class="row why-order-heading text-center padding-inside-top-sm">
       <div class="col-xs-12">
         <h2>Why order with Foodhub?</h2>
       </div>
     </div>
-    <div class="row Why-order-content">
+    <div class="row why-order-content text-center padding-inside-top-sm padding-inside-bottom-md">
       <div class="col-md-4">
         <img src="assets/images/gem.jpg" class="round-image spotlight-image margin-below-bottom-sm">
         <h4>Discover</h4>
@@ -202,8 +242,8 @@
         </p>
       </div>
     </div>
-    <div class="row About">
-      <div class="col-md-6">
+    <div class="row About padding-inside-top-md padding-inside-bottom-md">
+      <div class="col-md-6 text-center">
         <h2>About Foodhub</h2>
       </div>
       <div class="col-md-6">
@@ -211,26 +251,27 @@
       </div>
     </div>
 
-    <div class="row footer">
+    <div class="row footer padding-inside-top-md padding-inside-bottom-md">
       <div class="col-md-3">
         <h4 class="h4-footer">Sign up for special offers</h4>
 
         <form>
           <div class="form-group">
-            <input type="email" placeholder="Email">
-          </div>
 
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          </div>
           <div class="form-group">
-            <input type="number" placeholder="ZIP code">
-          </div>
 
-          <button type="submit" class="primary-button">Send me treats</button>
+            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="ZIP code">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send me treats</button>
         </form>
+
       </div>
       <div class="col-md-3">
         <h4 class="h4-footer">Get to know us</h4>
 
-        <ul>
+        <ul class="list-unstyled">
           <li class="li-footer">About Grubhub</li>
           <li class="li-footer">Our apps</li>
           <li class="li-footer">Our blog</li>
@@ -242,14 +283,14 @@
       <div class="col-md-3">
         <h4 class="h4-footer">Help</h4>
 
-        <ul>
+        <ul class="list-unstyled">
           <li class="li-footer">FAQ</li>
           <li class="li-footer">Contact us</li>
         </ul>
 
         <h4 class="h4-footer">Connect with us</h4>
 
-        <ul>
+        <ul class="list-unstyled">
           <li class="li-footer">Facebook</li>
           <li class="li-footer">Twitter</li>
           <li class="li-footer">Instagram</li>
@@ -259,7 +300,7 @@
       <div class="col-md-3">
         <h4 class="h4-footer">Partner with us</h4>
 
-        <ul>
+        <ul class="list-unstyled">
           <li class="li-footer">For restaurants</li>
           <li class="li-footer">For drivers</li>
           <li class="li-footer">For corporate accounts</li>
@@ -267,133 +308,6 @@
       </div>
     </div>
   </div>
-
-  <table class="main-content">
-    <tr>
-      <td colspan="10" class="navbar">
-        <a class="navbar-brand" href="https://www.google.com">
-          FOODHUB
-        </a>
-      </td>
-      <td class="navbar">
-        <a href="https://www.google.com">
-          Sign In
-        </a>
-      </td>
-      <td class="navbar">
-        <a href="https://www.google.com" class="btn btn-link">
-          <i class="fa fa-shopping-bag fa-lg"></i>
-        </a>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="12" class="who-delivers centered">
-
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="12" class="centered">
-
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="4" class="centered">
-
-      </td>
-
-      <td colspan="4" class="centered">
-
-      </td>
-
-      <td colspan="4" class="centered">
-
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="12" class="sound-bites centered">
-
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="3" class="sound-bites centered">
-
-      </td>
-
-      <td colspan="3" class="sound-bites centered">
-
-      </td>
-
-      <td colspan="3" class="sound-bites centered">
-
-      </td>
-
-      <td colspan="3" class="sound-bites centered">
-
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="12" class="download-apps centered">
-
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="12" class="why-order centered">
-
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="4" class="why-order centered">
-
-      </td>
-
-      <td colspan="4" class="why-order centered">
-
-      </td>
-
-      <td colspan="4" class="why-order centered">
-
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="6" class="centered">
-
-      </td>
-
-      <td colspan="6">
-
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="3" class="footer">
-
-      </td>
-
-      <td colspan="3" class="footer">
-
-      </td>
-
-      <td colspan="3" class="footer">
-
-
-      </td>
-
-      <td colspan="3" class="footer">
-
-
-      </td>
-    </tr>
-
-  </table>
 
 </body>
 </html>
