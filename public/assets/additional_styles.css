@@ -12,6 +12,7 @@ h1, h2, h3, h4 {
 
 /* Grid */
 
+
 .main-content {
   width: 100%;
 }
@@ -95,6 +96,7 @@ td {
 
 .footer {
   background-color: rgb(50, 50, 170);
+  color:white;
 }
 
 /* Miscellaneous */
@@ -111,11 +113,15 @@ td {
   width: 200px;
 }
 
+.media-left, .media-right, .media-body{
+display: table-cell;
+vertical-align: top;
+}
+}
 /* Footer styles */
 
 .h4-footer  {
   color: white;
-  font-size: 16px;
   font-weight: 700;
   margin-bottom: 10px;
 }
