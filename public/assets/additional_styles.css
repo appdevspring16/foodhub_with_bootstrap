@@ -27,6 +27,11 @@ td {
   border: thin red solid;
 }
 
+footer{
+  background-color: rgb(50, 50, 170);
+  color: white;
+}
+
 /* Utility */
 
 .round-image {
@@ -79,8 +84,8 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .sound-bites, .why-order {
@@ -91,8 +96,8 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .footer {
