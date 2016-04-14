@@ -154,8 +154,12 @@ td {
   padding-bottom: 10px;
 }
 
-.padding-inside-bottom-sm {
+.padding-inside-bottom-sm-original {
   padding-bottom: 20px;
+}
+
+.padding-inside-bottom-sm {
+  padding-bottom: 30px;
 }
 
 .padding-inside-bottom-md {
