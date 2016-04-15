@@ -1,10 +1,29 @@
 /* Additional styles */
+.container-fluid{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+.row{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+footer h4{color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+footer li{color: white;
+  margin-bottom: 10px;}
 /* Base typography */
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h1, h2, h3, h4 {
@@ -79,8 +98,8 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .sound-bites, .why-order {
@@ -91,11 +110,11 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
-.footer {
+footer {
   background-color: rgb(50, 50, 170);
 }
 
@@ -154,7 +173,7 @@ td {
 }
 
 .padding-inside-bottom-sm {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .padding-inside-bottom-md {
