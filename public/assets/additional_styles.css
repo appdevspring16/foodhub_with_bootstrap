@@ -11,7 +11,9 @@ h1, h2, h3, h4 {
 }
 
 /* Grid */
-
+.padding-inside-bottom-special {
+  padding-bottom: 45px;
+}
 .main-content {
   width: 100%;
 }
