@@ -4,7 +4,6 @@
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
 }
 
 h1, h2, h3, h4 {
@@ -203,4 +202,25 @@ td {
 
 .margin-below-bottom-xl {
   margin-bottom: 200px;
+}
+.who-delivers{
+  color: white;
+  background: url("images/main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  padding-top: 150px;
+}
+.download-apps{
+  color: white;
+  background: url("images/download-hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  padding-top: 150px;
+}
+.soundbites,
+.soundbites-content,
+.why-order-header,
+.why-order-content,
+.grey-background{
+  background-color: rgb(238, 238, 238);
 }
