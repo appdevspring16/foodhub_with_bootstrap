@@ -204,5 +204,8 @@ td {
 .margin-below-bottom-xl {
   margin-bottom: 200px;
 }
-Status API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
+
+.footerblue{
+  color: white;
+  background-color: rgb(50, 50, 170);
+}

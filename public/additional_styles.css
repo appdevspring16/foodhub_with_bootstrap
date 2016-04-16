@@ -3,7 +3,7 @@
 /*}*/
 
 .main-content{
-  width:100%;
+  /*width:100%;*/
 }
 
 .nav-row{
@@ -32,11 +32,11 @@
   background-color: rgb(238, 238, 238);
 }
 
-.sound-bites{
+/*.sound-bites{
   text-align: center;
   height: 100px;
   background-color: rgb(238, 238, 238);
-}
+}*/
 
 .happypeeps{
   width: 50px;
@@ -84,7 +84,7 @@ button {
   background: url("download-hero.jpg")
   no-repeat center center;
   background-size: cover;
-  height: 400px;
+  height: 500px;
 }
 
 .badge {
@@ -95,7 +95,7 @@ button {
   text-align: center;
 }
 
-.footerblue {
+.footerblue{
   color: white;
   background-color: rgb(50, 50, 170);
 }
@@ -203,9 +203,9 @@ td {
   vertical-align: middle;
 }
 
-.sound-bites, .why-order {
+/*.sound-bites, .why-order {
   background-color: rgb(238, 238, 238);
-}
+}*/
 
 .download-apps {
   background: url("images/download-hero.jpg") no-repeat center center;
