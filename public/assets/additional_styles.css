@@ -23,9 +23,11 @@ td {
   padding-right: 10px;
 }
 
-td {
+/*div {
   border: thin red solid;
-}
+}*/
+
+
 
 /* Utility */
 
@@ -60,7 +62,7 @@ td {
 
 .navbar {
   background-color: rgb(246,52,64);
-  vertical-align: middle;
+  /*vertical-align: middle; again not useful*/
 }
 
 .navbar a {
