@@ -95,8 +95,22 @@ td {
   padding-top: 150px;
 }
 
-.footer {
+footer {
   background-color: rgb(50, 50, 170);
+}
+
+/* Footer styles */
+
+footer h4 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+footer li {
+  color: white;
+  margin-bottom: 10px;
 }
 
 /* Miscellaneous */
@@ -111,20 +125,6 @@ td {
 
 .store-badge {
   width: 200px;
-}
-
-/* Footer styles */
-
-.h4-footer  {
-  color: white;
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.li-footer {
-  color: white;
-  margin-bottom: 10px;
 }
 
 /* My standard vertical spacing classes */
