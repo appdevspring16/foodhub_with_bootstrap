@@ -33,11 +33,67 @@
 
 <body>
 
+<!-- nav bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+   <div class="container-fluid">
+     <!-- Brand and toggle get grouped for better mobile display -->
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand" href="http://www.google.com">
+         FOODHUB
+       </a>
+     </div>
+
+     <!-- Collect the nav links, forms, and other content for toggling -->
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <ul class="nav navbar-nav navbar-right">
+         <li>
+           <a href="http://www.google.com">
+             Sign In
+           </a>
+         </li>
+
+         <li>
+           <a href="http://www.google.com">
+             <i class="fa fa-shopping-bag fa-lg"></i>
+           </a>
+         </li>
+       </ul>
+     </div>
+   </div>
+ </nav>
+
   <!-- new content  -->
-  <div class="container">
+  <div class="who-delivers container-fluid">
     <div class="row hero">
       <div class="col-md-offset-3 col-md-6">
+        <h2>
+                 Who delivers in your neighborhood?
+               </h2>
+               <form>
+         <div class="form-group">
+           <label for="exampleInputAddress1">
+             Enter your address below.
+           </label>
 
+           <div class="input-group">
+             <span class="input-group-addon" id="basic-addon1">
+               <i class="fa fa-map-marker"></i>
+             </span>
+
+             <input type="text" class="form-control" id="exampleInputAddress1" placeholder="Street address, city, state">
+           </div>
+         </div>
+
+         <button type="submit" class="btn btn-primary btn-block">
+           Find Food
+         </button>
+       </form>
       </div>
     </div>
     <div class="row how-to-heading">
@@ -79,23 +135,6 @@
   <!-- old content -->
 
   <table class="main-content">
-    <tr>
-      <td colspan="10" class="navbar">
-        <a class="navbar-brand" href="https://www.google.com">
-          FOODHUB
-        </a>
-      </td>
-      <td class="navbar">
-        <a href="https://www.google.com">
-          Sign In
-        </a>
-      </td>
-      <td class="navbar">
-        <a href="https://www.google.com" class="btn btn-link">
-          <i class="fa fa-shopping-bag fa-lg"></i>
-        </a>
-      </td>
-    </tr>
 
     <tr>
       <td colspan="12" class="who-delivers centered">
