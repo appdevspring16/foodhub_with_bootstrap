@@ -11,6 +11,13 @@ h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+.why-order-heading {
+  padding-inside-top-md;
+  padding-inside-bottom-sm;
+  
+
+}
+
 /* Grid */
 
 .main-content {
@@ -79,8 +86,9 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
+
 }
 
 .sound-bites, .why-order {
@@ -91,8 +99,8 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .footer {
