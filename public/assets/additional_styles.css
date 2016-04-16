@@ -81,6 +81,7 @@ td {
   color: white;
   height: 400px;
   vertical-align: middle;
+  padding-top: 150px;
 }
 
 .sound-bites, .why-order {
@@ -91,11 +92,12 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  /*vertical-align: middle;*/
+  padding-top: 150px;
 }
 
-.footer {
+footer {
   background-color: rgb(50, 50, 170);
 }
 
@@ -115,14 +117,14 @@ td {
 
 /* Footer styles */
 
-.h4-footer  {
+footer h4  {
   color: white;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.li-footer {
+footer li {
   color: white;
   margin-bottom: 10px;
 }
