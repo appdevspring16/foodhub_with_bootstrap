@@ -1,3 +1,122 @@
+/*h1 {*/
+/*color: red;*/
+/*}*/
+
+.main-content{
+  /*width:100%;*/
+}
+
+.nav-row{
+  background-color: red;
+  color: white;
+  height: 40px;
+}
+
+.heading-row{
+  text-align: center;
+
+}
+
+.how-to-image{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.how-to-cell{
+  text-align: center;
+}
+
+.sound-bites-head{
+  text-align: center;
+  height: 40px;
+  background-color: rgb(238, 238, 238);
+}
+
+/*.sound-bites{
+  text-align: center;
+  height: 100px;
+  background-color: rgb(238, 238, 238);
+}*/
+
+.happypeeps{
+  width: 50px;
+  border-radius: 50%;
+}
+
+td {
+  border:thin red solid;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/*.hero {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("main-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}*/
+
+.hero {
+  background: url("assets/images/main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 500px;
+}
+
+button {
+  background-color: rgb(0,126,229);
+  color: white;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px
+}
+
+.downloadapps {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background: url("download-hero.jpg")
+  no-repeat center center;
+  background-size: cover;
+  height: 500px;
+}
+
+.badge {
+  height: 60px;
+}
+
+.aboutfoodhub {
+  text-align: center;
+}
+
+.footerblue{
+  color: white;
+  background-color: rgb(50, 50, 170);
+}
+.navbar-brand {
+  font-family: "Passion One";
+  font-size: xx-large;
+}
+.invisible {
+  color: rgb(238, 238, 238);
+}
+
+.li-footer {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.invisblue {
+  color: rgb(50, 50, 170);
+}
+
+
 /* Additional styles */
 
 /* Base typography */
@@ -5,6 +124,7 @@
 body {
   font-family: "Montserrat";
   font-size: 16px;
+  /*vertical-align: middle;*/
 }
 
 h1, h2, h3, h4 {
@@ -83,9 +203,9 @@ td {
   vertical-align: middle;
 }
 
-.sound-bites, .why-order {
+/*.sound-bites, .why-order {
   background-color: rgb(238, 238, 238);
-}
+}*/
 
 .download-apps {
   background: url("images/download-hero.jpg") no-repeat center center;
@@ -205,7 +325,6 @@ td {
   margin-bottom: 200px;
 }
 
-.footerblue{
-  color: white;
+footer {
   background-color: rgb(50, 50, 170);
 }
