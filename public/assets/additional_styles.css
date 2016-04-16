@@ -83,7 +83,7 @@ td {
   padding-top: 150px;
 }
 
-.sound-bites, .why-order {
+.sound-bites-heading, .sound-bites-content, .why-order, .why-order-heading, .why-order-content {
   background-color: rgb(238, 238, 238);
 }
 
