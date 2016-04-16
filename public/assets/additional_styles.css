@@ -4,7 +4,7 @@
 
 body {
   font-family: "Montserrat";
-  
+
 }
 
 h1, h2, h3, h4 {
@@ -99,6 +99,7 @@ td {
 
 .footer {
   background-color: rgb(50, 50, 170);
+    color: white;
 }
 
 /* Miscellaneous */
