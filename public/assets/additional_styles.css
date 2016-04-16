@@ -4,8 +4,7 @@
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
-}
+  }
 
 h1, h2, h3, h4 {
   font-weight: 700;
@@ -60,7 +59,7 @@ td {
 
 .navbar {
   background-color: rgb(246,52,64);
-  vertical-align: middle;
+
 }
 
 .navbar a {
@@ -79,11 +78,11 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
-.sound-bites, .why-order {
+.sound-bites-heading, .sound-bites-content, .why-order-heading, .why-order-content {
   background-color: rgb(238, 238, 238);
 }
 
@@ -91,8 +90,8 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
 }
 
 .footer {
@@ -124,7 +123,8 @@ td {
 
 .li-footer {
   color: white;
-  margin-bottom: 10px;
+  margin-bottom: 10px  ;
+  list-style: none;
 }
 
 /* My standard vertical spacing classes */
