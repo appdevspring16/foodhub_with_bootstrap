@@ -4,7 +4,7 @@
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+  /*font-size: 16px;*/
 }
 
 h1, h2, h3, h4 {
@@ -79,7 +79,8 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
+  height: 500px;
+  padding-top: 150px;
   vertical-align: middle;
 }
 
@@ -91,12 +92,13 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+padding-top: 150px;
 }
 
 .footer {
   background-color: rgb(50, 50, 170);
+  color: white;
 }
 
 /* Miscellaneous */
