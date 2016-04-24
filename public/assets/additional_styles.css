@@ -1,14 +1,28 @@
+
 /* Additional styles */
 
 /* Base typography */
 
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+  line-height: 1.42857143;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
+  line-height: 1.1;
+}
+
+h2 {
+    font-size: 30px;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    color: inherit;
 }
 
 /* Grid */
@@ -27,6 +41,18 @@ td {
   border: thin red solid;
 }
 
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+div {
+    display: block;
+}
+
 /* Utility */
 
 .round-image {
@@ -38,7 +64,10 @@ td {
 }
 
 .tagline {
+  margin-bottom: 20px;
   font-size: 22px;
+  font-weight: 250;
+  line-height: 1.4;
 }
 
 /* Buttons */
@@ -49,7 +78,7 @@ td {
   color: white;
   border-radius: 5px;
   height: 40px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;``
 }
 
 .primary-button:hover {
@@ -60,7 +89,7 @@ td {
 
 .navbar {
   background-color: rgb(246,52,64);
-  vertical-align: middle;
+  /*vertical-align: middle;*/
 }
 
 .navbar a {
@@ -79,11 +108,12 @@ td {
   background: url("images/main-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px;
+  padding-top: 150px;
+  display: block;
 }
 
-.sound-bites, .why-order {
+.sound-bites-heading, .sound-bites-content, .why-order-heading, .why-order-content {
   background-color: rgb(238, 238, 238);
 }
 
@@ -91,8 +121,9 @@ td {
   background: url("images/download-hero.jpg") no-repeat center center;
   background-size: cover;
   color: white;
-  height: 400px;
-  vertical-align: middle;
+  height: 500px; /*instead of 400px*/
+  /*vertical-align: middle; - remove this line and replace it with padding*/
+  padding-top: 150px;
 }
 
 .footer {
