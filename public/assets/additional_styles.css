@@ -1,5 +1,22 @@
 /* Additional styles */
 
+label {
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.how-to {
+  background-color: white;
+}
+
+.margin-top-download  {
+  margin-top: 90px;
+}
+
+div {
+  border: thin  red solid;
+}
+
 /* Base typography */
 
 body {
@@ -23,9 +40,6 @@ td {
   padding-right: 10px;
 }
 
-td {
-  border: thin red solid;
-}
 
 /* Utility */
 
@@ -122,9 +136,9 @@ td {
   margin-bottom: 10px;
 }
 
-.li-footer {
+.p-footer {
   color: white;
-  margin-bottom: 10px;
+  font-size: 14px
 }
 
 /* My standard vertical spacing classes */
